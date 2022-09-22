@@ -1,6 +1,6 @@
 !pip install PyMySQL
 import pymysql
-db=pymysql.connect(host='database-1internship.cdjiaumwxjfa.ap-south-1.rds.amazonaws.com',user='admin',password='12345678')
+db=pymysql.connect(host='database-********************************',user='********',password='********')
 cursor = db.cursor()
 cursor
 cursor.execute("select version()")
