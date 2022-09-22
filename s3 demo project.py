@@ -6,19 +6,15 @@ import pandas as pd
 s3 = boto3.resource(
     service_name='s3',
     region_name='ap-south-1',
-    aws_access_key_id='AKIATNWCXI5YKH4OHSIE',
-    aws_secret_access_key='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'
+    aws_access_key_id= 'A*****************',
+    aws_secret_access_key= 'pne***************************'
 )
 # for avoiding regular use of access keys and secret keys and setting it with respect to your environment 
 import os
 os.environ["AWS_DEFAULT_REGION"] = 'ap-south-1'
-os.environ["AWS_ACCESS_KEY_ID"] = 'AKIATNWCXI5YKH4OHSIE'
-os.environ["AWS_SECRET_ACCESS_KEY"] = 'pneMYCH3HZQ4IbRuFhLipyH0jS02JKwynsJQG2sa'
+os.environ["AWS_ACCESS_KEY_ID"] = 'A*****************'
+os.environ["AWS_SECRET_ACCESS_KEY"] = 'pne***************************'
 # for avoiding regular use of access keys and secret keys and setting it with respect to your environment 
-import os
-os.environ["AWS_DEFAULT_REGION"] = 'ap-south-1'
-os.environ["AWS_ACCESS_KEY_ID"] = 'AKIATNWCXI5YKH4OHSIE'
-os.environ["AWS_SECRET_ACCESS_KEY"] = 'pneMYCH3HZQ4IbRuFhLipyH0jS02JKwynsJQG2sa'
 import pandas as pd
 # user details 
 import pandas as pd
